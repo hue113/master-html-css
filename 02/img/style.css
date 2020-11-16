@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+
+.image {
+    width: 20rem;
+    height: 20rem;
+    margin: 5rem auto 0;        
+
+}
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 20px 0 0;
+    
+    cursor: pointer;
+    /* pointer-events: none; */
+}
+
+/* 
+
+object-fit: cover --> maintain original image's aspect ratio when resizing
+
+*/

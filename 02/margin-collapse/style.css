@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    font-size: 62.5%;
+  }
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  
+.margin-collapse {
+    height: 100px;
+    width: 100%;
+    background-color: wheat;
+    margin-bottom: 50px;
+}
+.margin-collapse2 {
+    height: 100px;
+    width: 100%;
+    background-color: wheat;
+    margin-top: 20px;
+    display: inline-block;
+}
+.margin-collapse2:hover {
+    background-color: #451643;
+}

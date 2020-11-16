@@ -1,0 +1,44 @@
+Lesson02 content:
+    reset.css           --> https://meyerweb.com/eric/tools/css/reset/ 
+                            Place before style.css (priority order)
+
+    box-sizing          --> border-box
+
+    overflow            --> hidden      
+                            auto
+
+    margin-collapse     --> use 'display: inline-block;' for 2nd block element
+
+    font                    
+        font-size   
+        font-weight
+        font-style  
+        letter-spacing
+        word-spacing
+        line-height             
+            2 ways to define line-height:	30px (if font-size=30px) -> line-height: 1
+            If line-height: 45px -> 45px/30px = 1.5 -> -> line-height: 1.5
+
+    viewport
+
+    em/rem 
+
+    2 ways to put a block element in the middle (center)
+
+    initial / inherit / unset
+    currentColor
+
+    background
+
+    img
+        object-fit: cover;
+
+    cursor: pointer;
+    pointer-events: none;
+
+    overflow            hidden / scroll
+        overflow-y:     scroll
+        overflow-y:     scroll
+
+
+        

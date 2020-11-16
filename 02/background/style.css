@@ -1,0 +1,27 @@
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1601028094524-e6f69a6e40c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* Short form:
+    background: url("https://images.unsplash.com/photo-1601028094524-e6f69a6e40c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80")
+      no-repeat center / cover; 
+    */
+    background-attachment: fixed;
+}
+.image {
+    width: 20rem;
+    height: 20rem;
+    margin: 5rem auto 0;
+}
+.image img {
+    border-radius: 100rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 20px 0 0;
+    cursor: pointer;
+    pointer-events: none;
+}

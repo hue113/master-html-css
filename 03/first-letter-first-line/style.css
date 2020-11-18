@@ -1,0 +1,15 @@
+/* Select first letter (only apply to semantic elements, not apply to <a>) */
+p::first-letter {
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
+  }
+
+/* Select first line */
+p::first-line {
+    color: orange;
+    /* font-size: 2rem;
+    font-weight: bold;
+    display: block; */
+  }

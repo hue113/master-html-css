@@ -1,0 +1,13 @@
+.h3 {
+    color: blue;
+  }
+  .h3 + .h4 {
+    color: red;
+  }
+  .h3 + .h4 + .paragraph {
+    color: darkmagenta;
+  }
+  .h3 ~ .paragraph {
+    color: violet;
+  }
+  

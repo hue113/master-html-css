@@ -1,0 +1,22 @@
+a {
+    margin: 20px;
+}
+
+/*
+    ^       starting with                       a[href^="https"
+    $       ending with                         a[href$=".vn"]
+    *       contain specific characters         a[href*="xyz"]
+*/
+
+
+a[href^="https"] {
+    color: black;
+}
+
+a[href$=".vn"] {
+    color: rgb(28, 165, 62);
+}
+
+a[href*="xyz"] {
+    color: rgb(69, 216, 216);
+}

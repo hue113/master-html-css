@@ -1,0 +1,73 @@
+
+ul {
+    font-size: 2rem;
+}
+
+/* li:first-of-type {
+    color: palegreen;
+} */
+/* p:first-child {
+    color: red;
+} */
+
+/* li:first-child > p {
+    color: red;
+} */
+/* li:nth-child(3) {
+    color: plum;
+} */
+/* li:nth-child(4) {
+    color: yellowgreen;
+} */
+/* li:last-of-type {
+    color: orange;
+} */
+/* li:nth-of-type(3) {
+    color: purple;
+} */
+/* li:nth-last-of-type(2) {
+    color: beige;
+} */
+
+/* li:last-child {
+    color: red;
+} */
+
+
+/* :nth-child vs :nth-last-child() */
+/* li:nth-last-child(2) {
+    color: cyan;
+} */
+
+
+/* li:not(:first-child) {
+    color: aquamarine;
+} */
+/* li:not(:last-child) {
+    color: blueviolet;
+} */
+/* li:not(:nth-child(2)) {
+    color: orange;
+} */
+
+
+/* li:nth-child(odd) {
+    color: burlywood;
+}
+  li:nth-child(even) {
+    color: chartreuse;
+} */
+
+  
+.list {
+    font-size: 3rem;
+}
+.list li {
+    width: 10rem;
+    height: 10rem;
+    background-color: salmon;
+}
+  /* nth-child(an + b) a la so, b la so */
+.list li:nth-child(3n) {
+    background-color: purple;
+}

@@ -1,0 +1,49 @@
+Lesson03 content:
+    gradient        background, text, overlay
+    @supports       
+        caniuse.com
+        Vendor Prefix   
+
+    shadow          box-shadow, text-shadow
+        box-shadow  (x  y  blur  scale )        0 0 0 10px red;
+
+
+    CSS Specificity
+        tags    <    .class = [attribute]   <   #id     <   inline style    <    !important
+    
+    CSS variable declaration (inside :root)
+        :root {
+            --primary-color: #00aefd;
+            --secondary-color: #ffa400;
+        }
+    
+    child 
+        geeksforgeeks.org/difference-between-first-child-and-first-of-type-selector-in-css/
+            :first-child        the FIRST child of the parent
+            :first-of-type      the first of its TYPE, of the parent (can comes 2nd, 3rd or 4th any place)
+    
+    CSS Selectors       + > ~
+        w3schools.com/cssref/css_selectors.asp
+
+    a-tag
+        ^       starting with                       a[href^="https"
+        $       ending with                         a[href$=".vn"]
+        *       contain specific characters         a[href*="xyz"]
+
+    p::first-letter
+    p::first-line           
+        only apply to semantic elements, not apply to <a>
+        can : or :: (both works)
+
+    transition
+        property: color, background, border, .... default: all
+        timer: 2s 3s
+        easing: linear ease-in, ease-out, ease-in-out,
+        cubic-bezier(0.075, 0.82, 0.165, 1)
+    check more about cubic bezier:    https://cubic-bezier.com/ 
+    Transition for :hover   --> must use 'transition' before using 'hover'
+
+    :empty
+        .boxed:empty {
+            display: none;
+        }

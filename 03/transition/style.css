@@ -1,0 +1,29 @@
+.boxed {
+  width: 20rem;
+  height: 20rem;
+  background-color:rgb(202, 202, 236);
+
+  transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -moz-transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  
+  /* must use 'transition' before using 'hover'
+  
+  transition:
+   property: color, background, border, .... default: all
+   timer: 2s 3s
+   easing: linear ease-in, ease-out, ease-in-out,
+   cubic-bezier(0.075, 0.82, 0.165, 1)
+  
+  check more about cubic bezier:    https://cubic-bezier.com/ 
+   */
+}
+
+
+.boxed:empty {
+  display: none;
+}
+.boxed:hover {
+  color: white;
+  background-color: rgb(142, 142, 201);
+}

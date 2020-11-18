@@ -1,0 +1,87 @@
+.gradient-text {
+    font-weight: bold;
+    font-size: 3rem;
+
+    display: inline-block;
+}
+@supports (-webkit-background-clip: text) {
+    .gradient-text {
+    /* Fallback: Set a background color. */   
+        background-color: #f3ec78;
+
+    /* Create the gradient. */
+        background-image: linear-gradient(to right bottom, #00aefd, #ffa440);
+
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-text-fill-color: transparent;
+
+    /*  color: transparent;
+        background-clip: text; */
+    }
+}
+  
+
+.gradient-background {
+    width: 50rem;
+    height: 50rem;
+    background-image: linear-gradient(to right bottom, #00aefd, #ffa440); 
+/*
+    direction:  to left, 
+                to right, 
+                to bottom, 
+                to top, 
+                to left top, 
+                to left bottom, 
+                top right top, 
+                to right bottom, 
+                30deg, 
+                180deg
+*/
+}
+
+
+
+.gradient-overlay {
+    background-image: linear-gradient(
+        to right bottom,
+        rgb(0, 174, 253, 0.8),
+        rgb(255, 164, 64, 0.8)
+      ),
+      url("https://images.unsplash.com/photo-1593642533144-3d62aa4783ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+    width: 100vw;
+    height: 100vh;
+    
+    /* trong suốt nhưng vẫn chiếm diện tích và có thể nhấn vào được */
+    /* opacity: 0; */
+
+    /* trong suốt nhưng vẫn chiếm diện tích và không nhấn vào được */
+    /* visibility: hidden; */
+
+    /* mất luôn và ko chiếm diện tích, ko nhấn vô được */
+    /* display: none; */
+}
+  
+  
+.box-shadow {
+    width: 20rem;
+    height: 20rem;
+    background-color: rgb(255, 230, 87);
+    margin: 5rem auto;
+
+    /* box-shadow: x y blur scale color */
+    box-shadow: 20px 20px 100px rgba(255, 120, 58, 0.8);
+    /* box-shadow: inset 10px 10px 10px 15px rgba(255, 166, 0, 0.185); */
+}
+
+
+.text-shadow {
+    font-weight: bold;
+    font-size: 5rem;
+
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 5px -3px 12px red;
+}
